@@ -26,7 +26,6 @@ Call using C# generated header
 
 ```
 curl -v -X POST -H "Content-Type: application/json" -H "Authentication: $(dotnet run)" http://localhost:3000/protected --data '{"a":"b"}'
-
 ```
 
 Generate header using NodeJS
